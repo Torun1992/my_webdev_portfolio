@@ -14,16 +14,28 @@ body {
     border: 0;
     font-size: 20px;
     color: white;
-    font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
 
 
 /* nav related styles */
 nav {
     display: flex;
-     justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
@@ -50,14 +62,49 @@ nav a {
 }
 
 /* header related styles */
-.header{
+.header {
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-picture{
+
+.banner-cintent {
+    max-width: 500px;
+}
+
+.banner .profile-picture {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+
+
+ /* abut section styles  */
+.abut {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
