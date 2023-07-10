@@ -14,6 +14,7 @@ body {
     border: 0;
     font-size: 20px;
     color: white;
+    font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
 }
@@ -63,10 +64,10 @@ nav a {
 
 /* header related styles */
 .header {
-    background-color: #fff8f3;
+    background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left ;
 
 }
 
@@ -79,6 +80,7 @@ nav a {
 
 .banner-content {
     max-width: 500px;
+    
 }
 
 .banner.profile-picture {
@@ -100,14 +102,13 @@ nav a {
 
 /* main section styles */
 main {
+   
     max-width: 1140px;
-    height: 550px;
     margin: 0 auto;
-    border-radius: 10px;
-    background: #FFF8F3;
 }
 
 main section {
+    /* background: #FFF8F3; */
     margin-top: 130px;
 }
 
@@ -143,8 +144,8 @@ main section {
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 0px 6px 50px 0px;
-    rgba(0, 0, 0, 0.o6);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
 }
 
 skill-description {
@@ -158,33 +159,44 @@ skill-description {
     font-weight: 700;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
 }
 
-.resume-item-title{
-color: #474747;
-font-size: 25px;
-font-weight: 700;
-margin-bottom: 10px;
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
-.resume-item-institute{
+.resume-item-institute {
     margin-bottom: 20px;
     margin-top: 0px;
 }
 
-.resume-item-institute, .resume-item-description{
+.resume-item-institute,
+.resume-item-description {
     color: #757575;
 
 }
 
-.resume-container hr{
-    30px
+.resume-container hr {
+    margin: 30px;
+
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
 }
